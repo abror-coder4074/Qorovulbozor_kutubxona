@@ -4,10 +4,10 @@ import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 
 const Hero = ({ t }) => {
     return (
-        <section className="relative h-screen min-h-[600px] w-full flex flex-col">
+        <section className="relative h-screen min-h-150 w-full flex flex-col">
             <div
                 className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2000')" }}
+                style={{ backgroundImage: "url('https://storage.kun.uz/source/3/xdzeqQvxOevYkg7uJhUXAFaFCdMi5ehh.jpg')" }}
             >
                 <div className="absolute inset-0 bg-black/60"></div>
             </div>

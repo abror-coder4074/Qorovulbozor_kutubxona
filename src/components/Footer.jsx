@@ -5,7 +5,7 @@ const Footer = ({ t }) => {
   return (
     <footer className="bg-[#0A1929] text-white pt-16 pb-8 px-4 md:px-16 mt-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-        
+
         <div className="space-y-6">
           <div className="flex items-center gap-2">
             <div className="bg-[#BD1C23] text-white w-8 h-8 flex items-center justify-center rounded-lg font-bold">K</div>
@@ -32,10 +32,10 @@ const Footer = ({ t }) => {
           <ul className="space-y-4 text-gray-400 text-sm mb-6">
             <li>{t.addressDesc}</li>
             <li className="hover:text-white"><a href="tel:+998911137035">+998 91 113 70 35</a></li>
-            <li className="hover:text-white"><a href="mailto:info@quvakutubxona.uz">info@qorovulbozorkutubxona.uz</a></li>
+            <li className="hover:text-white"><a href="mailto:qorovulbozorlib@gmail.com">qorovulbozorlib@gmail.com</a></li>
             <li className="hover:text-white"><a href="https://t.me/quvakutubxona" target="_blank">t.me/qorovulbozorkutubxona</a></li>
           </ul>
-          
+
           <h4 className="text-lg font-bold mb-3">{t.workTimeTitle}</h4>
           <div className="text-gray-400 text-sm space-y-1">
             <p>{t.workHours}</p>
@@ -48,9 +48,9 @@ const Footer = ({ t }) => {
           <h4 className="text-lg font-bold mb-6">{t.subscribeTitle}</h4>
           <p className="text-gray-400 text-sm mb-6">{t.subscribeDesc}</p>
           <div className="flex bg-white rounded-lg overflow-hidden">
-            <input 
-              type="email" 
-              placeholder={t.emailPlaceholder} 
+            <input
+              type="email"
+              placeholder={t.emailPlaceholder}
               className="flex-1 px-4 py-3 text-black text-sm outline-none"
             />
             <button className="bg-[#BD1C23] px-6 py-3 font-bold hover:bg-[#a0181e] transition-colors">

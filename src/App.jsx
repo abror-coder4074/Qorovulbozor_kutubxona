@@ -9,6 +9,13 @@ import Footer from './components/Footer';
 import AboutPage from './pages/AboutPage';
 import LibraryPage from './pages/LibraryPage';
 import ManagementPage from './pages/ManagementPage';
+import News from './pages/News';
+import ras1 from "../public/1.jpg";
+import ras2 from "../public/4.jpg";
+import ras3 from "../public/33.jpg";
+import ras4 from "../public/2.jpg";
+import ras5 from "../public/6.jpg";
+import ras6 from "../public/5.jpg";
 
 const translations = {
   uz: {
@@ -25,12 +32,12 @@ const translations = {
     stats: [
       { n: "100+", t: "Kunlik qatnov" },
       { n: "44 460", t: "Kitoblar fondi" },
-      { n: "2000+", t: "Elektron kitoblar" },
+      { n: "375", t: "Elektron kitoblar" },
       { n: "16", t: "Malakali xodimlar" }
     ],
     contactTitle: "Bog'lanish uchun ma'lumotlar",
     addressTitle: "Manzil",
-    addressDesc: "Qoravulbozor tumani, Mustaqillik ko'chasi, 1-uy",
+    addressDesc: "Geologlar kochasi 14 uy",
     phoneTitle: "Telefon",
     btnMore: "Batafsil ma'lumot",
     booksSectionTitle: "Kutubxona Kitoblari",
@@ -75,7 +82,7 @@ const translations = {
       { title: "Internet va kompyuter", desc: "20 ta zamonaviy monoblok va yuqori tezlikdagi internet." },
       { title: "Maslahat xizmati", desc: "Tajribali kutubxonachilar tomonidan metodik yordam." },
       { title: "O'quv zallari", desc: "Interaktiv doska va qulay mebellar bilan jihozlangan zallar." },
-      { title: "Elektron kutubxona", desc: "2000 dan ortiq elektron resurslar bazasi." },
+      { title: "Elektron kutubxona", desc: "375 dan ortiq elektron resurslar bazasi." },
       { title: "Filiallar xizmati", desc: "3 ta mahallada tashkil etilgan kutubxona filiallari." }
     ],
     libTitle: "Qoravulbozor tuman Axborot kutubxona markazi",
@@ -102,6 +109,46 @@ const translations = {
     rule4: "Kutubxona ichida tinchlikni saqlash shart",
     rule5: "Kitoblarga ehtiyotkorona munosabatda bo'lish",
     rule6: "Ovqatlanish va ichimliklar taqiqlanadi",
+    newsTitle: "So'nggi yangiliklar",
+    newsBtn: "Barchasini ko'rish",
+    newsData: [
+      {
+        id: 1,
+        title: "Yangi AKM ochilish marosimi",
+        desc: "Mustaqilligimizning 33 yillik shodiyonalari arafasida Qorovulbozor tumanida zamonaviy qulayliklarga ega bo‘lgan yangi axborot-kutubxona markazi o‘z faoliyatini boshladi.",
+        img: ras1
+      },
+      {
+        id: 2,
+        title: "Milliy kutubxona rahbari tashrifi",
+        desc: "Ochilish marosimida tuman hokimi Akmal Ostonov hamda Milliy kutubxona rahbari Umida Teshaboyevalar so‘zga chiqishdi va o'z tilaklarini bildirishdi.",
+        img: ras2
+      },
+      {
+        id: 3,
+        title: "Ramziy kalit topshirildi",
+        desc: "Tantanali marosimda axborot-kutubxona markazining ramziy kaliti kutubxona direktoriga tantanali ravishda topshirildi.",
+        img: ras3
+      },
+      {
+        id: 4,
+        title: "Soha mutaxassislari muloqoti",
+        desc: "Tadbirda viloyat AKM direktori va boshqa mutasaddilar kutubxonaning kelgusi rivoji haqida fikr almashishdi.",
+        img: ras4
+      },
+      {
+        id: 5,
+        title: "Zamonaviy AKT sharoitlari",
+        desc: "Yangi binoda 20 ta monoblok va interaktiv doskalar bilan jihozlangan AKT xonalari yoshlar ixtiyoriga topshirildi.",
+        img: ras5
+      },
+      {
+        id: 6,
+        title: "Mutolaa madaniyati",
+        desc: "Yangi kutubxona kunlik qatnovni 100 nafargacha yetkazish va yoshlarni kitobxonlikka chorlash imkonini beradi.",
+        img: ras6
+      }
+    ]
   },
   ru: {
     nav: ["Главная", "О нас", "Наши книги", "Библиотека", "Новости", "Руководство"],
@@ -117,12 +164,12 @@ const translations = {
     stats: [
       { n: "100+", t: "Ежедневных посещений" },
       { n: "44 460", t: "Книжный фонд" },
-      { n: "2000+", t: "Электронных книг" },
+      { n: "375", t: "Електронных книг" },
       { n: "16", t: "Сотрудников" }
     ],
     contactTitle: "Контактная информация",
     addressTitle: "Адрес",
-    addressDesc: "Караулбазарский район, улица Мустакиллик, дом 1",
+    addressDesc: "Улица Геологов, дом 14",
     phoneTitle: "Телефон",
     btnMore: "Подробнее",
     booksSectionTitle: "Библиотечные Книги",
@@ -194,6 +241,46 @@ const translations = {
     rule4: "Соблюдайте тишину",
     rule5: "Бережное отношение к книгам",
     rule6: "Еда и напитки запрещены",
+    newsTitle: "Последние новости",
+    newsBtn: "Смотреть все",
+    newsData: [
+      {
+        id: 1,
+        title: "Открытие нового ИБЦ",
+        desc: "В канун 33-летия независимости в Караулбазаре открылся современный информационно-библиотечный центр.",
+        img:  ras1
+      },
+      {
+        id: 2,
+        title: "Визит руководства",
+        desc: "Хоким района и директор Национальной библиотеки приняли участие в церемонии открытия.",
+        img:  ras2
+      },
+      {
+        id: 3,
+        title: "Символический ключ",
+        desc: "Символический ключ от нового здания был торжественно передан директору библиотеки.",
+        img:  ras3
+      },
+      {
+        id: 4,
+        title: "Диалог специалистов",
+        desc: "Специалисты обсудили планы развития новой библиотеки и внедрение цифровых технологий.",
+        img:  ras4
+      },
+      {
+        id: 5,
+        title: "Современное оснащение",
+        desc: "Залы оснащены современными моноблоками для доступа к электронным ресурсам.",
+        img:  ras5
+      },
+      {
+        id: 6,
+        title: "Культура чтения",
+        desc: "Новые условия позволяют повысить ежедневную посещаемость до 100 читателей.",
+        img:  ras6
+      }
+    ]
   },
   en: {
     nav: ["Home", "About us", "Books", "Library", "News", "Management"],
@@ -209,12 +296,12 @@ const translations = {
     stats: [
       { n: "100+", t: "Daily visits" },
       { n: "44 460", t: "Book fund" },
-      { n: "2000+", t: "E-books" },
+      { n: "375", t: "E-books" },
       { n: "16", t: "Staff members" }
     ],
     contactTitle: "Contact Info",
     addressTitle: "Address",
-    addressDesc: "Mustaqillik str 1, Qorovulbozor",
+    addressDesc: "14 Geologlar Street",
     phoneTitle: "Phone",
     btnMore: "Details",
     booksSectionTitle: "Library Books",
@@ -286,6 +373,46 @@ const translations = {
     rule4: "Maintain silence",
     rule5: "Handle books with care",
     rule6: "Food and drinks are prohibited",
+    newsTitle: "Latest News",
+    newsBtn: "View All",
+    newsData: [
+      {
+        id: 1,
+        title: "New ILC Opening",
+        desc: "A modern information-library center was opened in Qorovulbozor district on the eve of independence day.",
+        img: ras1
+      },
+      {
+        id: 2,
+        title: "Official Visit",
+        desc: "District Khokim and National Library Director attended the grand opening ceremony.",
+        img: ras2
+      },
+      {
+        id: 3,
+        title: "Symbolic Key",
+        desc: "The symbolic key to the new building was officially handed over to the library director.",
+        img: ras3
+      },
+      {
+        id: 4,
+        title: "Specialist Dialogue",
+        desc: "Regional library experts discussed digital transformation and future library services.",
+        img: ras4
+      },
+      {
+        id: 5,
+        title: "Digital Resources",
+        desc: "The center is equipped with 20 monoblocks and interactive boards for digital learning.",
+        img: ras5
+      },
+      {
+        id: 6,
+        title: "Reading Culture",
+        desc: "New facilities aim to increase daily visits to 100 readers and promote reading among youth.",
+        img: ras6
+      }
+    ]
   }
 };
 
@@ -298,13 +425,13 @@ function App() {
     <Router>
       <div className="antialiased selection:bg-[#BD1C23] selection:text-white min-h-screen flex flex-col">
         <Navbar t={t} lang={lang} setLang={setLang} showLang={showLang} setShowLang={setShowLang} />
-        <main className="flex-grow">
+        <main className="grow">
           <Routes>
             <Route path="/" element={<><Hero t={t} /><About t={t} /><Books t={t} /><Services t={t} /></>} />
             <Route path="/about-us" element={<AboutPage t={t} />} />
             <Route path="/books" element={<div className="pt-32 px-16"><Books t={t} /></div>} />
             <Route path="/library" element={<LibraryPage t={t} />} />
-            <Route path="/news" element={<div className="pt-32 text-center text-3xl font-bold">News Section</div>} />
+            <Route path="/news" element={<News t={t}/>} />
             <Route path="/management" element={<ManagementPage t={t} />} />
           </Routes>
         </main>
