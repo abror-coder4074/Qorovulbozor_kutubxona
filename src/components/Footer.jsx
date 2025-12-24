@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Send } from 'lucide-react';
+import { Facebook, Instagram, Send , Youtube, Twitter } from 'lucide-react';
 
 const Footer = ({ t }) => {
   return (
@@ -65,8 +65,10 @@ const Footer = ({ t }) => {
         <p>© 2025 {t.copyright}</p>
         <div className="flex gap-6">
           <a href="https://www.facebook.com/QorovulbozorLib21" className="hover:text-white transition-colors"><Facebook size={20} /></a>
-          <a href="#" className="hover:text-white transition-colors"><Send size={20} /></a>
-          <a href="#" className="hover:text-white transition-colors"><Instagram size={20} /></a>
+          <a href="https://t.me/qblibuz" className="hover:text-white transition-colors"><Send size={20} /></a>
+          <a href="https://www.intagram.com/akmqorovulbozor/" className="hover:text-white transition-colors"><Instagram size={20} /></a>
+          <a href="https://www.youtube.com/@qblib8284" className="hover:text-white transition-colors"><Youtube size={20} /></a>
+          <a href="https://x.com/lb_qb92018" className="hover:text-white transition-colors"><Twitter size={20} /></a>
         </div>
       </div>
     </footer>

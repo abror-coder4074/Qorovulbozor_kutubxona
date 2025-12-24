@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
 
 const Navbar = ({ t, lang, setLang, showLang, setShowLang }) => {
-    // navLinks massiviga "/management" manzili qo'shildi
-    const navLinks = ["/", "/about-us", "/books", "/library", "/news", "/management"];
+const navLinks = ["/", "/about-us", "/books", "/library", "/news", "/management"];
 
     return (
         <nav className="fixed top-0 left-0 w-full z-[100] flex items-center justify-between px-4 md:px-16 py-4 bg-black/40 backdrop-blur-md border-b border-white/10">

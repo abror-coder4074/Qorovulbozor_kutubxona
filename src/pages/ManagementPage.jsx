@@ -15,7 +15,7 @@ const ManagementPage = ({ t }) => {
             image: Photo,
             reception: "Dushanba - Juma, 09:00 - 11:00",
             email: "director@qorovulbozorkutubxona.uz",
-            phone: "+998 55 312 60 34"
+            phone: "+998 99-702-21-80"
         },
         // {
         //     id: 2,

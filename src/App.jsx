@@ -26,7 +26,7 @@ const translations = {
     btnEnter: "Kutubxonaga kirish",
     btnAbout: "Biz haqida",
     sectionTitle: "Qorovulbozor tuman Axborot kutubxona markazi",
-    aboutText1: "Kitob insonni kamolotga eltuvchi mayoqdir. Kitob qalbni tarbiyalabgina qolmay, inson tafakkuri va dunyoqarashining yuksalishiga ham beminnat xizmat qiladi. Shu o‘rinda o‘sib kelayotgan yosh avlodni kitob mutolaasiga chorlash va kitobxonlik madaniyatini yuksaltirish maqsadida Qoravulbozor tumanida zamonaviy qulayliklarga ega bo‘lgan yangi axborot-kutubxona markazi o‘z faoliyatini boshladi.",
+    aboutText1: "Kitob insonni kamolotga eltuvchi mayoqdir. Kitob qalbni tarbiyalabgina qolmay, inson tafakkuri va dunyoqarashining yuksalishiga ham beminnat xizmat qiladi. Shu o‘rinda o‘sib kelayotgan yosh avlodni kitob mutolaasiga chorlash va kitobxonlik madaniyatini yuksaltirish maqsadida Qorovulbozor tumanida zamonaviy qulayliklarga ega bo‘lgan yangi axborot-kutubxona markazi o‘z faoliyatini boshladi.",
     aboutText2: "Mustaqilligimizning 33 yillik shodiyonalari arafasida ochilgan ushbu markaz “Tashabbusli budjet” loyihasi doirasida 1 mlrd 200 mln so‘m va mahalliy budjetdan 650 mln so‘m mablag‘ evaziga qad rostladi. Alisher Navoiy nomidagi O‘zbekiston milliy kutubxonasi tomonidan ajratilgan 360 mln so‘m evaziga esa markaz 20 ta monoblok, interaktiv doska va zamonaviy mebellar bilan to‘liq jihozlandi.",
     statsTitle: "Kutubxonamiz raqamlarda",
     stats: [
